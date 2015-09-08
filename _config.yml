@@ -1,0 +1,14 @@
+# Site settings
+title: =^_^=
+motto: Apprenticeship Blog
+email: no@no.no
+description: > # this means to ignore newlines until "baseurl:"
+  A blog relating the events and lessons learned in the course of my
+  apprenticeship at 8th Light.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+# twitter_username: jekyllrb
+github_username:  scarvill91
+
+# Build settings
+markdown: kramdown
