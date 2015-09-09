@@ -1,9 +1,9 @@
 # Site settings
-title: =^_^=
-motto: Apprenticeship Blog
+title: Blogging a Dead Horse
+motto: Stuff I think and learn in the course of my apprenticeship at 8th Light
 email: no@no.no
 description: > # this means to ignore newlines until "baseurl:"
-  A blog relating the events and lessons learned in the course of my
+  A blog relating the stuff I think and learn in the course of my
   apprenticeship at 8th Light.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
