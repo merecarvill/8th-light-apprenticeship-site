@@ -1,14 +1,14 @@
 # Site settings
 title: Blogging a Dead Horse
-motto: Stuff I think and learn in the course of my apprenticeship at 8th Light
+motto: Thoughts during the course of my software apprenticeship at 8th Light
 email: no@no.no
 description: > # this means to ignore newlines until "baseurl:"
-  A blog relating the stuff I think and learn in the course of my
-  apprenticeship at 8th Light.
+  The blog of a resident apprentice at 8th Light, where I attempt to enrich, distill,
+   and share my thoughts as I learn the craft of developing software.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
-github_username:  scarvill91
+github_username: scarvill91
 
 # Build settings
 markdown: kramdown
