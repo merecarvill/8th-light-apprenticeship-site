@@ -1,7 +1,7 @@
 ---
-layout: post
-title:  "Why does this blog exist?"
-date:   2015-09-11
+layout:     post
+title:      "Why does this blog exist?"
+date:       2015-09-11
 categories: blogs apprenticeship
 ---
 I'm writing this post because I'll be damned if the answer to that question is "Because I have to." I *do* have to: multiple posts on a weekly basis are a requirement of my apprenticeship. But there are certainly reasons why this is a staple of apprenticeships at 8th Light, and I'd like to devote my first post to unpacking those reasons. So the answer to "Why does this blog exist?" will hopefully follow from "Why blog at all?"
