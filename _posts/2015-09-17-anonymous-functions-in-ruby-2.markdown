@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Anonymous functions in Ruby #2 - Differences, Details, and Background"
+title:  "Anonymous functions in Ruby #2 - Differences, Details, & Background"
 date:   2015-09-17
 categories: ruby lambdas metaprogramming
 ---
