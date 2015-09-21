@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Set up a blog on Github Pages in 15 minutes."
+title:      "Set up a blog on Github Pages in 15 minutes"
 date:       2015-09-13
 categories: blogs github jekyll
 ---

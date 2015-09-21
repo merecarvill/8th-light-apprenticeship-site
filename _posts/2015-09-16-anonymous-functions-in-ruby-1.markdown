@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Anonymous functions in Ruby #1 - Blocks, Procs, & Lambdas."
+title:  "Anonymous functions in Ruby #1 - Blocks, Procs, & Lambdas"
 date:   2015-09-16
 categories: ruby lambdas metaprogramming
 ---
