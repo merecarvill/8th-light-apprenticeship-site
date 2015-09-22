@@ -2,7 +2,7 @@
 layout:     post
 title:      "Set up a blog on Github Pages in 15 minutes"
 date:       2015-09-13
-categories: blogs github jekyll
+categories: blogging github jekyll
 ---
 When setting up my blog, I didn't want to commit to a service that might go out of vogue or that prevented me from having easy access and control over the content I generated. Github Pages seemed like a reasonable choice, offering free hosting and where making a new post is as easy as pushing new content to a repo.
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Effective practice"
 date:   2015-09-19
-categories: practice education
+categories: learning
 ---
 
 I recently finished Uncle Bob's *Clean Coder: A Code of Conduct for Professional Programmers*. It's given me plenty of food for thought, not least about the value of practice for the professional developer. I thought I'd make a post about the ways we can structure practice to make it as effective as possible.

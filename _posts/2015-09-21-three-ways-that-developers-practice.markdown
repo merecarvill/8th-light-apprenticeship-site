@@ -2,7 +2,7 @@
 layout: post
 title:  "Three ways that developers practice"
 date:   2015-09-21
-categories: practice education katas
+categories: learning katas
 ---
 
 I've been asked to begin learning Swift this week - and the way I've been asked to do that is to use Swift to implement and demonstrate the [prime factors kata](http://butunclebob.com/ArticleS.UncleBob.ThePrimeFactorsKata) to my mentors. This, and reading about what Uncle Bob has to say about practicing and katas in *Clean Coder*, leads me to write this post examining some of the established ways in which software developers practice their craft.

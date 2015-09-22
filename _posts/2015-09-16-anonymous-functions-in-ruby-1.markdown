@@ -2,7 +2,7 @@
 layout: post
 title:  "Anonymous functions in Ruby #1 - Blocks, Procs, & Lambdas"
 date:   2015-09-16
-categories: ruby lambdas metaprogramming
+categories: ruby metaprogramming
 ---
 Anonymous functions and anonymous function-like behavior are quite pervasive in Ruby, and I really wasn't particularly aware of it all until I recently took the time to understand it a bit better. I was prompted to dig deeper in an attempt to write a generic [Negamax](https://en.wikipedia.org/wiki/Negamax) algorithm that could be passed context-specific functionality that would allow it to be applied within any game. I hope that sharing what I've learned might inspire some new ideas for tackling similar problems, or at least provide some interesting brain-candy.
 
