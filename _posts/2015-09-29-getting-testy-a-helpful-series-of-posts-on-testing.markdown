@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  A helpful series of posts on testing
-date:   2015-09-28
+title:  Getting Testy - A helpful series of posts on testing
+date:   2015-09-29
 categories:
 - testing
 - external resources
