@@ -2,7 +2,9 @@
 layout: post
 title:  "Keyword arguments in Ruby"
 date:   2015-09-22
-categories: ruby
+categories:
+- ruby
+- language features
 ---
 I made the rather pleasant discovery that keyword arguments are supported in Ruby 2.0+ the other day. It's funny that I should find this out now, considering that I'm just starting to learn Swift, which is the first language I've been exposed to that makes prevalent use of keyword arguments. Until now, I'd drifted towards using parameter hashes for passing arguments in Ruby, having osmosed the practice from POODR and random code examples without having thought too hard about it.
 

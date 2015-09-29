@@ -2,7 +2,8 @@
 layout: post
 title:  Connascence
 date:   2015-09-24
-categories: testing
+categories:
+- design
 ---
 Originally introduced by Meilir Page-Jones' *[What Every Programmer Should Know About Object-Oriented Design](http://www.amazon.com/Every-Programmer-Should-Object-Oriented-Design/dp/0932633315)*, connascence is a helpful concept that helps us to consider dependencies in our code and their relative impact on the flexibility of our designs. Two elements are connascent when a change in one element requires a change in the other in order to preserve the correct behavior of the system.
 
