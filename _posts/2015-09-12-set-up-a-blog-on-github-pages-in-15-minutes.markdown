@@ -1,8 +1,9 @@
 ---
-layout:     post
-title:      "Set up a blog on Github Pages in 15 minutes"
-date:       2015-09-13
-categories:
+layout: post
+section-type: post
+title: "Set up a blog on Github Pages in 15 minutes"
+category: blogging
+tags:
 - blogging
 ---
 When setting up my blog, I didn't want to commit to a service that might go out of vogue or that prevented me from having easy access and control over the content I generated. Github Pages seemed like a reasonable choice, offering free hosting and where making a new post is as easy as pushing new content to a repo.
@@ -18,14 +19,14 @@ If you want to give Github Pages/Jekyll a go, here's pretty much what I did to g
 * The parts of the directory structure that you'll need to understand in order to get up and running are the `_posts` folder and the `_config.yml` file. You'll be adding your content to the `_posts` folder and tweaking the `_config.yml` file to alter the site to your liking. There will also likely be a helpful guide among the files of the Jekyll theme you downloaded, which will be able to give you specific advice on how to customize your particular theme.
   * `_config.yml` contains a number of configuration options for your site, and will also likely contain the definitions of many variables used elsewhere in the site. For example, in the [Pithy theme](http://jekyllthemes.org/themes/pithy/), the `_config.yml` file contains variables that determine the site's title and description, home page's header, author's email, author's github username, etc.
   * `_posts` contains your blog posts - each file is written in a markup language, contains the content of one post, and must be named according to a format that includes the date and title of the post. For example, `2015-08-04-welcome-to-jekyll.md` is a post titled "Welcome to Jekyll," made on August 4th, 2015 and written in Markdown. Each post also requires the first thing in the file to be a YAML front matter block - which is basically a series of variable declarations sandwiched between triple dashes. In most cases their function will be self-evident, especially with reference to the front matter of any example posts included in your theme. The front matter for this post looks like this:
-{% highlight ruby %}
+  <pre style="text-align: left">
 ---
 layout:     post
 title:      "Set up a blog on Github Pages in 15 minutes."
 date:       2015-09-13
 categories: blogs github jekyll
 ---
-{% endhighlight %}
+</pre>
 
 * Change whatever you would like about your site. This is where having Jekyll installed and hosting your site locally in order to preview the results of your changes can be helpful. The served site will update to reflect your changes without having to restart the server (in most cases, at least).
 * Push your changes to github. You can view your live site at [username].github.io, replacing [username] with your github username.

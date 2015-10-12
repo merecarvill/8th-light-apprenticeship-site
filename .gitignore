@@ -3,3 +3,5 @@ Gemfile.lock
 .jekyll-metadata
 _site/
 _drafts/
+TODO.txt
+img/unused/

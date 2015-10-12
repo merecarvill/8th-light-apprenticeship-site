@@ -1,14 +1,134 @@
-# Site settings
-title: Blogging a Dead Horse
-motto: Thoughts during the course of my software apprenticeship at 8th Light
-email: no@no.no
-description: > # this means to ignore newlines until "baseurl:"
-  The blog of a resident apprentice at 8th Light, where I attempt to enrich, distill,
-   and share my thoughts as I learn the craft of developing software.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-# twitter_username: jekyllrb
-github_username: scarvill91
 
-# Build settings
-markdown: kramdown
+# Site settings
+
+url: "http://scarvill91.github.io"
+
+# If you're hosting your site at a Project repository on GitHub pages
+# (http://yourusername.github.io/repository-name)
+# and NOT your User repository (http://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+
+# baseurl: /personal-jekyll-theme
+
+google-tracking-id: False # "<YOUR GOOGLE TRACKING ID>"
+
+#############
+# HTML Head #
+#############
+
+author: "Spencer Carvill"
+lang: "en"
+title: "{ Spencer Carvill }"
+favicon: "/img/favicon.ico"
+description: "Blog and website of Spencer Carvill, blogging mainly about software development."
+keywords: "spencer, carvill, apprentice, apprenticeship"
+
+################
+# Intro layout #
+################
+
+black-favicon: "/img/favicon.ico"
+background-img: "../img/dark-fractal-wallpaper.jpg"
+me-img: "/img/headshot.jpg"
+
+##############################
+# Dynamic Text on the header #
+##############################
+
+dynamic-typing: True
+shuffle: False	# True = Shuffle the lines.
+loop: False # Set True to shuffle
+loop-count:	3 # Set False for infinite loop, or set any number for finite loop.
+type-speed:	15		# Default 10
+start-delay: 200	# Default 200
+delete-delay: 2000	# Default 5000
+lines:			# You can add HTML Tags in the Text
+  - text: "Hi there!"
+  - text: "This is my blog."
+  - text: "Please, make yourself at home."
+
+########
+# Blog #
+########
+
+post-preview-words: 100
+
+paginate: 25
+
+fb-share: True
+twitter-share: True
+reddit-share: True
+disqus-shortname: "scarvill"
+
+###############
+# Life Events #
+###############
+
+events:
+  - image: "/img/career/8l.png"
+    date: "September 2015 - Present"
+    description: "Resident Apprentice @ 8th Light"
+  - image: "/img/career/op.jpg"
+    date: "September 2014 - September 2015"
+    description: "Sourcer @ Objective Paradigm"
+  - image: "/img/career/uofc.jpg"
+    date: "October 2010 - June 2014"
+    description: "Psychology Major @ University of Chicago"
+  - image: "/img/career/pea.jpg"
+    date: "September 2006 - June 2010"
+    description: "Student @ Phillips Exeter Academy"
+
+# First image of the Career timeline
+career-img: "/img/career/born.png"
+
+##################
+# Contact layout #
+##################
+
+email: "scarvill@8thlight.com"
+
+##################
+# Social Buttons #
+##################
+
+social:
+  # - title: "facebook"
+  #   url: "http://facebook.com/"
+  - title: "twitter"
+    url: "https://twitter.com/ThisSpence"
+  # - title: "youtube"
+  #   url: "http://youtube.com/"
+  - title: "github"
+    url: "https://github.com/scarvill91"
+  # - title: "rss"
+  #   url: "/feed.xml"
+
+############
+# 404 page #
+############
+
+404-img: "/img/italian_spiderman.gif"
+
+################################################################################
+
+# Tread carefully if you want to change the variables below this point!
+
+# Navigation bar links
+# Blog link in the blog and post pages will point to the blog.html#blog
+# In the default page it will point to the preview of the last post
+
+pages_list:
+  About: 'about'
+  Blog: 'blog'
+  Career: 'career'
+  Contact: 'contact'
+
+# Pagination path
+paginate_path: "blog/page:num"
+
+# Enable minification SASS
+sass:
+  style: compressed
+
+# Exclusion list from the generated _site
+exclude: ["Rakefile", "LICENSE", "readme.markdown", "vendor"]

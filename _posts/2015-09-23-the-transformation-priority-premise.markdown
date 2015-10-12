@@ -1,8 +1,10 @@
 ---
 layout: post
+section-type: post
 title:  "The Transformation Priority Premise"
 date:   2015-09-23
-categories:
+category: design
+tags:
 - design
 ---
 Uncle Bob advances an idea called the Transformation Priority Premise. It is a heuristic for choosing the kind of changes made in order to get tests to pass in the TDD cycle - in other words, a guide for the decisions you make to get from 'red' to 'green' in the process of 'red, green, refactor.'

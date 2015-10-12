@@ -1,10 +1,10 @@
 ---
 layout: post
+section-type: post
 title:  "Anonymous functions in Ruby #2 - Differences, Details, & Background"
-date:   2015-09-17
-categories:
+category: ruby
+tags:
 - ruby
-- language features
 ---
 This post continues my exploration of anonymous functions in Ruby.
 
@@ -12,18 +12,18 @@ This post continues my exploration of anonymous functions in Ruby.
 
 To begin, both are instances of the Proc class. To demonstrate, you should see something like this if you inspect them in irb:
 
-{% highlight ruby %}
+<pre style="text-align: left">
 Proc.new {}
 # => #<Proc:0x007fb5e9192c50@(irb):1>
 lambda {}
 # => #<Proc:0x007fb5e91ae388@(irb):2 (lambda)>
-{% endhighlight %}
+</pre>
 
 As you can see, however, a lambda is a special 'flavor' of proc. How that works under the hood, I have no clue. The difference manifests in a couple significant ways, though:
 
 - A lambda will complain if called with the wrong number of arguments, whereas a proc will do the best it can with what it's given. If given too few arguments, a proc will substitute ```nil``` for each missing argument. If called with too many arguments, a proc will just ignore the extras. To demonstrate:
 
-{% highlight ruby %}
+<pre style="text-align: left">
 p = Proc.new { |x, y| [x.nil?, y.nil?] }
 p.call
 # => [true, true]
@@ -43,11 +43,11 @@ l.call(:foo, :bar)
 # => [false, false]
 l.call(:foo, :bar, :baz)
 # => # => ArgumentError: wrong number of arguments (3 for 2)
-{% endhighlight %}
+</pre>
 
 - A lambda returns control to the method from which it was called, whereas when a proc returns it triggers a return from the enclosing method as well. Here is an example
 
-{% highlight ruby %}
+<pre style="text-align: left">
 def proc_test
   proc = Proc.new { return }
   proc.call
@@ -62,7 +62,7 @@ end
 proc_test # does nothing
 lambda_test
 # > This should print
-{% endhighlight %}
+</pre>
 
 That last example was based on an example from [this post](http://awaxman11.github.io/blog/2013/08/05/what-is-the-difference-between-a-block/) by Adam Waxman, who also offers this helpful - and terse - list of some of the points about blocks, procs, and lambdas covered in this post and my previous post:
 
@@ -77,7 +77,7 @@ Understanding that procs and lambdas are closures, and that blocks are very like
 
 In this sense, a closure is a function that remains bound to the environment in which it was originally defined, allowing changes in that environment to be reflected in changes in behavior of the function. Enough talk though. Here is an example that hopefully demonstrates the nature of closures:
 
-{% highlight ruby %}
+<pre style="text-align: left">
 counter = 0
 l = lambda { counter }
 
@@ -92,7 +92,7 @@ closure_test
 # => 2
 closure_test
 # => 3
-{% endhighlight %}
+</pre>
 
 The thing to note in the above example is that the lambda preserves the reference to ```counter``` despite the variable having been defined outside of the scope of the lambda's definition. If counter were evaluated at the time of definition, the lambda would return 0 (the original value of ```counter```) every time it was called. Even if the lambda and ```counter``` had been defined far removed from the context in which ```closure_test``` was defined, you would see the exact same behavior. This can lead to some very tricky side-effects, wherein you're modifying variables from the defining context of a proc or lambda and it causes their behavior to change in unanticipated ways.
 

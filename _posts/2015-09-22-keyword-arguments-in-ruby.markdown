@@ -1,10 +1,10 @@
 ---
 layout: post
+section-type: post
 title:  "Keyword arguments in Ruby"
-date:   2015-09-22
-categories:
+category: ruby
+tags:
 - ruby
-- language features
 ---
 I made the rather pleasant discovery that keyword arguments are supported in Ruby 2.0+ the other day. It's funny that I should find this out now, considering that I'm just starting to learn Swift, which is the first language I've been exposed to that makes prevalent use of keyword arguments. Until now, I'd drifted towards using parameter hashes for passing arguments in Ruby, having osmosed the practice from POODR and random code examples without having thought too hard about it.
 
@@ -12,23 +12,23 @@ I made the rather pleasant discovery that keyword arguments are supported in Rub
 
 Ordered arguments (also known as positional arguments) are associated with correct identifiers as a result of the order in which they were passed to a method:
 
-{% highlight ruby %}
+<pre style="text-align: left">
 def ordered_args(one, two, three)
   puts "one: #{one}, two: #{two}, three: #{three}"
 end
 ordered_args(1, 2, 3)
 # > one: 1, two: 2, three: 3
-{% endhighlight %}
+</pre>
 
 Keyword arguments, on the other hand, are values explicitly associated with a keyword that serves to identify them and can therefore be passed to a method in any order:
 
-{% highlight ruby %}
+<pre style="text-align: left">
 def keyword_args(one:, two:, three:)
   puts "one: #{one}, two: #{two}, three: #{three}"
 end
 ordered_args(one: 1, three: 3, two: 2)
 # > one: 1, two: 2, three: 3
-{% endhighlight %}
+</pre>
 
 # Advantages of keyword arguments
 
@@ -40,7 +40,7 @@ ordered_args(one: 1, three: 3, two: 2)
 
 If you're new to using keyword arguments in Ruby, I thought I'd add a brief demo of how to define default parameter values using the keyword syntax:
 
-{% highlight ruby %}
+<pre style="text-align: left">
 def default_parameter_test(parameter: "default")
   puts parameter
 end
@@ -50,4 +50,4 @@ default_parameter_test("foo")
 # => ArgumentError: wrong number of arguments (1 for 0)
 default_parameter_test(parameter: "foo")
 # > foo
-{% endhighlight %}
+</pre>
