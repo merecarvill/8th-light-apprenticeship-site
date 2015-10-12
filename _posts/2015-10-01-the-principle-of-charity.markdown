@@ -8,7 +8,7 @@ tags:
 ---
 One of the things that led me to want to become a software developer is that, in many cases at least, the job entails pretty extensive interaction with other people. In [The Clean Coder](http://www.amazon.com/The-Clean-Coder-Professional-Programmers/dp/0137081073), Uncle Bob says that "Programming is all about working with people. We need to work with our business, and we need to work with each other." Working directly with business clients and frequent pair programming is an extreme example, such as you'd find at a consultancy like 8th Light. I recently came across something called the *Principle of Charity* that strikes me as a potentially valuable tool in our interactions with others.
 
-# Core concept
+### Core concept
 
 The principle of charity is a methodology in philosophy and rhetoric for reasoning about assertions made by others. It requires that we first consider the strongest possible rational interpretation of a speaker's statement before formulating a response.
 
@@ -21,7 +21,7 @@ This [site](http://philosophy.lander.edu/oriental/charity.html) offers a usefule
 
 This doesn't preclude disagreement. You will, however, have to temporarily put beliefs, prior judgements, and pre-formed responses aside and to pit your eventual reply against the best (i.e. the most charitable) interpretation you can give to a speaker's assertions. One caveat is that your interpretation should still be one that the speaker would agree with - the principle of charity is not an exercise aimed at molding any given assertion so that they conform to your beliefs.
 
-# Potential benefits
+### Potential benefits
 
 At baseline, following the principle of charity is intended to "avoid attributing irrationality, logical fallacies or falsehoods to the others' statements, when a coherent, rational interpretation of the statements is available."([1](https://en.wikipedia.org/wiki/Principle_of_charity)) This really serves your best interest in addition to the speaker, since we lose out on valuable, potentially valid information and perspective if we mistakenly dismiss valid statements.
 

@@ -18,11 +18,11 @@ While the values of XP lend meaning to its practices, however, the values themse
 
 In my view, then, the "extreme" aspect of XP lies not the relatively uncontroversial and widely-shared values, but in the practices that Beck advocates in support of those values.
 
-# The practices
+### The practices
 
 Beck distinguishes between "primary" and "corollary" practices - the practices that generally yeild tangible benefits even when implemented in isolation, versus the practices that may not be of benefit unless implemented with the support of other XP practices.
 
-### Primary Practices
+#### Primary Practices
 
 - **Sit Together:** Work together in an open, shared space rather than relying on cubicles, offices, or remote work. This hinges on the idea that "physical proximity enhances communication."
 - **Whole Team:** Have a team that incorporates all the skills necessary to bring the project from start to completion - i.e. a cross-functional team. Have each member fully dedicated to the team, rather than splitting their efforts between multiple teams.
@@ -38,7 +38,9 @@ Beck distinguishes between "primary" and "corollary" practices - the practices t
 - **Test-First Programming:** Write a failing test before adding to production code. Add only so much code as it takes to get the test to pass.
 - **Incremental Design:** Alter the design of the project whenever necessary in order to fit the needs of the system *as it is now*. Defer investing in any design decision until the "last responsible moment."
 
-### Corollary Practices
+<br>
+
+#### Corollary Practices
 
 - **Real Customer Involvement:** "Make people whose lives and business are affected by the system part of the team." Have them guide the development of the system. This is in the same vein as the practice of creating a "whole team."
 - **Incremental Deployment:** When replacing an existing system with a new one, deploy the new system incrementally, as new functionality is added. Maintain both systems in parallel until the new system can take over.
@@ -52,6 +54,8 @@ Beck distinguishes between "primary" and "corollary" practices - the practices t
 - **Negotiated Scope Contract:** Write contracts that dictate terms for a continuous negotiation of project scope, rather than a contracts that determines it up-front. Negotiate a series of smaller contracts that address sequential portions of a project, as opposed to a single, comprehensive contract.
 - **Pay-per-use:** Charge every time the system is used, as opposed to profit models that are not directly coupled to (and indicative of) usage.
 
-# Thoughts
+<br>
+
+### Thoughts
 
 The above is my best attempt at distilling the practices employed in XP. In a subsequent post, I plan to dig a little deeper into an analysis and critique of these practices.

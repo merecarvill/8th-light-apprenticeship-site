@@ -8,7 +8,7 @@ tags:
 ---
 Originally introduced by Meilir Page-Jones' *[What Every Programmer Should Know About Object-Oriented Design](http://www.amazon.com/Every-Programmer-Should-Object-Oriented-Design/dp/0932633315)*, connascence is a helpful concept that helps us to consider dependencies in our code and their relative impact on the flexibility of our designs. Two elements are connascent when a change in one element requires a change in the other in order to preserve the correct behavior of the system.
 
-# Types of connascence
+### Types of connascence
 
 **Connascence of Name** occurs when multiple elements rely on shared knowledge of a name. Method names are a common example of this form of connascence: if the name of a method changes, callers of that method must be changed to use the new name.
 
@@ -28,7 +28,7 @@ Originally introduced by Meilir Page-Jones' *[What Every Programmer Should Know 
 
 **Connascence of Identity** occurs when multiple elements rely on shared knowledge of the reference to a particular entity. This could occur if you had two objects that share a reference to a third object - such as two objects reading from and writing to the same array.
 
-# Considerations
+### Considerations
 
 The few blog posts that I've read on connascence have ranked the types in terms of the cost and difficulty that each impose on future changes. The above types are listed in the same order of increasing severity as listed in those blogs. Page-Jones makes no mention of relative severity in the original book, however, and also lists the types of connascence in this same order.
 

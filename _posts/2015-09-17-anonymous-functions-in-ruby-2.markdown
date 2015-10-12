@@ -8,7 +8,7 @@ tags:
 ---
 This post continues my exploration of anonymous functions in Ruby.
 
-# Differences - The subtleties of procs vs. lambdas
+### Differences - The subtleties of procs vs. lambdas
 
 To begin, both are instances of the Proc class. To demonstrate, you should see something like this if you inspect them in irb:
 
@@ -71,7 +71,7 @@ That last example was based on an example from [this post](http://awaxman11.gith
 - Lambdas check the number of arguments, while procs do not
 - Lambdas and procs treat the ‘return’ keyword differently
 
-# Details - WTF is a closure?
+### Details - WTF is a closure?
 
 Understanding that procs and lambdas are closures, and that blocks are very like closures, is very important to understanding an important aspect of their behavior. So WTF is a closure? My attempt at a pithy definition is that a closure is a function that retains the referential nature of variables used in its definition. You can contrast this to simply evaluating variables at the time the function is defined and using those values in place of the variable from then on.
 
@@ -98,7 +98,7 @@ The thing to note in the above example is that the lambda preserves the referenc
 
 A last thing to note before moving on: despite the fact that the example given featured a lambda, procs and blocks share this same behavior. Each maintains the reference to variables in the context in which they were defined.
 
-# Background - Lambda calculus
+### Background - Lambda calculus
 
 Anonymous functions have their theoretical basis in lambda calculus, which was invented by Alonzo Church in 1936. As you might guess, this is the reason why the keyword ```lambda``` is associated with anonymous functions in Ruby (and many other languages as well). I think a quote from wikipedia offers a great defintion of lambda calculus:
 

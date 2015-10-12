@@ -10,7 +10,7 @@ Anonymous functions and anonymous function-like behavior are quite pervasive in 
 
 The term 'anonymous function' is relatively easy to unpack at the semantic level. It describes a function - a bit of code with input, output, and which 'does' something in-between - and it is anonymous - you can't reference it by name, you can only use the function if you've just defined it or been given it by something else. But what does that mean concretely? This may be easiest to explain by examining how anonymous functions are implemented in Ruby.
 
-# Procs and Lambdas
+### Procs and Lambdas
 
 Procs and Lambdas are the true 'anonymous function' in Ruby. They look like this:
 
@@ -34,7 +34,7 @@ You may also come across the 'stabby lambda' syntax, which allows lambdas to be 
 
 As you can see, procs and lambdas are defined in a very similar manner and both define a function complete with specified parameters and a return value. They encapsulate this function as an object in Ruby - each can be stored in a variable and passed around, and their function can be applied using the ```:call``` method. Procs and lambdas differ in subtle ways that I think I'll save for a later post. Before finishing this post, I'd like to first bring Ruby's blocks into the comparison.
 
-# Blocks
+### Blocks
 
 A Ruby block is one of the rare elements of Ruby that is not an object - unlike procs and lambdas - and isn't technically an anonymous function. However, blocks fill a very similar niche and were what I was accustomed to using in Ruby until deliberately familiarizing myself with procs and lambdas.
 

@@ -17,11 +17,11 @@ The postulated benefits of adhering to the TPP include:
 
 Thus far, the evidence for the above assertions is mostly anecdotal - I think the supporting argument is strongest for the first claim, weaker for the second, and weakest for the third. I'm going to explain the TPP in greater depth and then consider the support for each potential benefit.
 
-# Favoring simpler transformations
+### Favoring simpler transformations
 
 A transformation is defined as an atomic change in code that results in a change in the code's behavior. The idea behind the Transformation Priority Principle is that there are many different kinds of transformations you can make every time you need to change code to get a test to pass, and that some transformations have more positive results than others. Therefore, certain kinds of transformations should be given priority over other kinds.
 
-# Types of transformations
+### Types of transformations
 
 Let's look at the types of transformations that Uncle Bob came up with - listed from simplest to most complex. This version of the list is taken from Uncle Bob's [post on TPP](http://blog.8thlight.com/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html) and is supplemented with my own elaborations:
 
@@ -57,11 +57,11 @@ The takeaway from this is that there is no exhaustive list of transformations, a
 
 Uncle Bob's core insight, however, is a valuable one. We *should* be thinking about the **kinds** of transformations we're making and about their **relative complexity** when compared to each other. This enables us to be deliberate about the kinds of transformations we make, and to be mindful of any benefits or costs that result from using one kind over another.
 
-# The hypothesized benefits
+### The hypothesized benefits
 
 Uncle Bob's first argument is that **abiding by the TPP "will prevent impasses, or long outages in the red/green/refactor cycle."**([1](http://blog.8thlight.com/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html)) If we accept that simpler changes to code are faster and easier to implement correctly, then Uncle Bob's assertion follows readily from the fact that the TPP dictates that less complex transformations are of higher priority than more complex ones. This can also be empirically tested pretty easily - just compare the average time spent between red and green when abiding by the TPP versus when not. Better yet, compare the average time between abiding by the TPP versus abiding by the inverse of the TPP.
 
-In the conclusion of his [two-parter episode on the TPP](https://cleancoders.com/episode/clean-code-episode-24-p1/show on Clean Coders, Uncle Bob also asserts that **following the TPP "almost certainly help[s] us to write better systems."** If you accept that prioritizing simpler transformations over more complex ones (when possible) will produce code that is simple, then it follows that the TPP can help us produce simpler systems. In my opinion, this premise is a little more tenuous. As a counterexample, consider the fact that any computation boils down to a a long series of relatively simple mathematical computations on numeric values at the assembly level. Replicating this in the code we write would utilize only the highest priority transformations of the TPP, but that certainly wouldn't result in the most simple, transparent, or flexible system.
+In the conclusion of his [two-parter episode on the TPP](https://cleancoders.com/episode/clean-code-episode-24-p1/show) on Clean Coders, Uncle Bob also asserts that **following the TPP "almost certainly help[s] us to write better systems."** If you accept that prioritizing simpler transformations over more complex ones (when possible) will produce code that is simple, then it follows that the TPP can help us produce simpler systems. In my opinion, this premise is a little more tenuous. As a counterexample, consider the fact that any computation boils down to a a long series of relatively simple mathematical computations on numeric values at the assembly level. Replicating this in the code we write would utilize only the highest priority transformations of the TPP, but that certainly wouldn't result in the most simple, transparent, or flexible system.
 
 The judgement required to apply the TPP is not encapsulated within the concept - you have to rely on additional heuristics to determine what kinds of transformations are up for consideration any given point. I think Uncle Bob's conjecture that the TPP can guide us to simpler, better systems - but only when it is utilized in conjunction with other principles. For example, the applying the [DRY principle](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) would encourage the use of some of the more abstract, lower-priority transformations and prevent us from going down a very low-level, repetitous path like in the above counterexample.
 

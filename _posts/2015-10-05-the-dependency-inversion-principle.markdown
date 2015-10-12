@@ -11,15 +11,15 @@ The Dependency Inversion Principle (DIP) is one of five principles of good objec
 > A. High-level modules should not depend on low-level modules. Both should depend on abstractions.
 > B. Abstractions should not depend on details. Details should depend on abstractions.
 
-# What is a dependency
+### What is a dependency?
 
 From the perspective of any given element in a system, a dependency describes something that the element "depends" on. The dependent element is, unsurprisingly, called the "dependent." An example of a very common type of dependency is dependency on the interface of any given programming language. In Ruby, this could be a dependency on Array objects, on associated methods like #size or #map, or on the syntax for defining blocks. This also serves to illustrate that dependencies are inescapable and not always terrible. The API of a programming language is one of the better things to for code to depend on because - relatively speaking - it is likely to change infrequently, in small increments, and, even then, will usually be backwards compatible. My previous post on Connascence is a good reference for considering various forms of dependency.
 
-# A helpful metaphor
+### A helpful metaphor
 
 I think the popular metaphor of lamps and plugs illustrates the DIP well. When you want to power a lamp, you don't have to directly access your home's wiring and solder it together with the lamp's power cord. Instead, you have your choice of a handful of identical sockets into which you can plug your lamp - you don't have to interact with the undelying wiring at all. The DIP aims to produce systems that emulate this sort of convenience and flexibility. If you translate the metaphor into the terms of Uncle Bob's definition of the DIP, the lamp is a high-level module, the wiring is a low-level module, and the socket is an abstraction - in this case, of the energy provided by the wiring divorced from any messy details.
 
-# A simple example:
+### A simple example
 
 Let's try to translate this metaphor into an example in Ruby. Let's say we have Circuits that ```conduct_electricity```, but must be wired up beforehand in order to be successful.
 
@@ -132,6 +132,6 @@ end
 
 Ew. Now just consider how tangled things could get in a non-trivial example.
 
-# Conclusion
+### Conclusion
 
 And that's the Dependency Inversion Principle folks! I've found it helpful in the design of my Tic Tac Toe application thus far. I've implemented both my ComputerPlayer and HumanPlayer to abide by the same abstract "player" interface, which frees my game from having to behave any differently based on which type of player it is interacting with. I'm also anticipating applying the DIP to the Tic TacToe user interface as I prepare to add a Rails-based interface alongside the existing command line interface. I'm confident you'll find the DIP useful in many instances as well.
