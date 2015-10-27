@@ -2,9 +2,9 @@
 layout: post
 section-type: post
 title: The Single Responsibility Principle
-category: SOLID
+category: design
 tags:
-- SOLID
+- SOLID principles
 - design
 ---
 The Single Responsibility Principle (SRP) is one of the SOLID principles of good object-oriented design. For backrgound information about the SOLID principles, view my [post on the Dependency Inversion Principle](http://scarvill91.github.io/design/2015/10/05/the-dependency-inversion-principle.html). The SRP strikes me as the most deceptive of the SOLID principles, in the sense that I found it very easy to arrive at an incorrect or incomplete understanding of the principle. This is entirely due to the seeming intuitiveness of the name 'Single Responsibility.' What more do you even have to understand beyond the name? It sounds reasonable that things in an object-oriented design should have only one responsibility - it sounds simple and clean.

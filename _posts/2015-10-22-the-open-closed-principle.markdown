@@ -2,9 +2,9 @@
 layout: post
 section-type: post
 title: The Open/Closed Principle
-category: SOLID
+category: design
 tags:
-- SOLID
+- SOLID principles
 - design
 ---
 The Open/Closed Principle (OCP) is another of the SOLID principles of good object-oriented design. I've written perviously about other SOLID principles: the [Dependency Inversion Principle](http://scarvill91.github.io/design/2015/10/05/the-dependency-inversion-principle.html) and the [Single Responsibility Principle](http://scarvill91.github.io/solid/2015/10/21/the-single-responsibility-principle.html). The idea behind the OCP is credited to Bertrand Meyer. The commonly cited formulation of the OCP is
