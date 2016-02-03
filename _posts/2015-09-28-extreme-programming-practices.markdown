@@ -2,9 +2,9 @@
 layout: post
 section-type: post
 title:  Extreme Programming practices
-category: agile
+category: practices
 tags:
-- agile
+- practices
 ---
 I receieved a deeper introduction to [Agile](https:**//en.wikipedia.org/wiki/Agile_software_development) software development over the weekend, thanks to Kent Beck's *[Extreme Programming Explained](http://www.amazon.com/Extreme-Programming-Explained-Embrace-Edition/dp/0321278658)*. In particular, the description of XP's component practices has helped me to establish a more concrete understanding of what it means to create software in an agile way. I thought I'd review the practices listed in the book to consolidate my learning and to hopefully provide a useful resource to others.
 

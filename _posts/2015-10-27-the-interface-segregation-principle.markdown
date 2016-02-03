@@ -4,8 +4,8 @@ section-type: post
 title: The Interface Segregation Principle
 category: design
 tags:
-- SOLID principles
 - design
+- SOLID principles
 ---
 
 The The Interface Segregation Principle (ISP) is a design principle with the aim to keep interfaces small and cohesive, thereby reducing/preventing coupling in code and offering focused areas of functionality that are easier to reuse. ISP is one of the five SOLID principles. You can read about some of the other SOLID principles here: the [Dependency Inversion Principle](http://scarvill91.github.io/design/2015/10/05/the-dependency-inversion-principle.html), the [Single Responsibility Principle](http://scarvill91.github.io/design/2015/10/21/the-single-responsibility-principle.html), and the [Open/Closed Principle](http://scarvill91.github.io/design/2015/10/22/the-open-closed-principle.html).
@@ -109,4 +109,3 @@ end
 </pre>
 
 Like in this example, the SRP can usually be applied wherever you apply the ISP. The two principles encourage viewing the problem in different ways, however, and pragmatic considerations can lead you to favor one over the other. If, for example, I was unable to alter the source code for the Car class, segregating the interface as in the ISP example might be my only option.
-

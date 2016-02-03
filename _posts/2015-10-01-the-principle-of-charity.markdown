@@ -2,9 +2,9 @@
 layout: post
 section-type: post
 title: The principle of charity
-category: professionalism
+category: practices
 tags:
-- professionalism
+- practices
 ---
 One of the things that led me to want to become a software developer is that, in many cases at least, the job entails pretty extensive interaction with other people. In [The Clean Coder](http://www.amazon.com/The-Clean-Coder-Professional-Programmers/dp/0137081073), Uncle Bob says that "Programming is all about working with people. We need to work with our business, and we need to work with each other." Working directly with business clients and frequent pair programming is an extreme example, such as you'd find at a consultancy like 8th Light. I recently came across something called the *Principle of Charity* that strikes me as a potentially valuable tool in our interactions with others.
 

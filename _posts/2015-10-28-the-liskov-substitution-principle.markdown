@@ -4,8 +4,8 @@ section-type: post
 title: The Liskov Substitution Principle
 category: design
 tags:
-- SOLID principles
 - design
+- SOLID principles
 ---
 The Lumpy Space Princ- ah, I'm sorry, the Liskov Substitution Principle (LSP) defines a relationship between substitutable types that aims to keep their shared behavior consistent. The LSP is one of the five SOLID principles. You can read about the other SOLID principles [here](http://scarvill91.github.io/tags/SOLID%20principles.html). Barbara Liskov dirst described the LSP in the following quote.
 

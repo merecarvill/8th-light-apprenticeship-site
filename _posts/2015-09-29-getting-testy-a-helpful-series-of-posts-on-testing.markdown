@@ -2,9 +2,9 @@
 layout: post
 section-type: post
 title:  Getting Testy - A helpful series of posts on testing
-category: testing
+category: learning
 tags:
-- testing
+- learning
 - external resource
 ---
 I discovered a series of posts on testing by Randy Coulman called *[Getting Testy](http://randycoulman.com/blog/categories/getting-testy/)*. It covers all sorts of great stuff - from the history and various philosophies of testing in software development to effective strategies for adapting tests to accomodate external services. I highly reccommend all of the posts in the series.

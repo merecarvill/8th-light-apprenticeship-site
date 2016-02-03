@@ -4,8 +4,8 @@ section-type: post
 title: The Dependency Inversion Principle
 category: design
 tags:
-- SOLID principles
 - design
+- SOLID principles
 ---
 The Dependency Inversion Principle (DIP) is one of five principles of good object-oriented design. You may recognize it as the "D" in "[SOLID](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design))" - Michael Feathers' widely-known acronym for the five principles. Applying the DIP in conjunction with the other SOLID principles aims to produce systems that are easier to maintain and extend. The DIP hinges on the idea that abstractions are less subject to change than the details of their implementation. A system is therefore easier to change when the elements containing the details of implementation depend on elements that are relatively more abstract. The formulation of the DIP as it first appeared in Uncle Bob's [Agile Software Development: Principles, Patterns, and Practices](http://www.amazon.com/Software-Development-Principles-Patterns-Practices/dp/0135974445) is as follows:
 

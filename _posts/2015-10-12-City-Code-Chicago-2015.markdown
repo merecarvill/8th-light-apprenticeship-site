@@ -5,6 +5,7 @@ title: City Code Chicago 2015
 category: learning
 tags:
 - learning
+- external resource
 ---
 The first [City Code Chicago](http://chicago.citycode.io/) conference ocurred Friday of last week. Garrett Smith spearheaded its organization, creating a focused and intimate event conducted from Second City's theater stage. All of the conference's talks are viewable on youtube. However, they are rather hard to find, so I thought I'd provide some links here:
 
