@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title:  Pairing Tour: Day 3
+title:  Pairing Tour Day 3
 category: learning
 tags:
 - learning

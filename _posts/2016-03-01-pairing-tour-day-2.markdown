@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title:  Pairing Tour: Day 2
+title:  Pairing Tour Day 2
 category: learning
 tags:
 - learning
@@ -22,4 +22,4 @@ Eric kept a balance to his participation throughout estimation. He'd mostly keep
 
 A debate about the relative importance of preserving backwards compatibility versus improving the API of a handful of client-owned submodules used in many of the client's apps definitely got Eric speaking pretty forcefully. He definitely favored improving the submodules, and there was not insignificant support for the other position among the rest of the team.
 
-I'd say Eric argued his position well, though it didn't seem like a resolution was reached before the team discussion moved on. 
+I'd say Eric argued his position well, though it didn't seem like a resolution was reached before the team discussion moved on.
